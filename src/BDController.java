@@ -6,6 +6,8 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+// He introducido un cambio aquÃ­
+
 public class BDController {
 	private Connection conexion;
 	
@@ -16,7 +18,7 @@ public class BDController {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			System.out.println("Error en la conexión a la Bade de Datos - BDController.Contructor_Vacio");
+			System.out.println("Error en la conexiï¿½n a la Bade de Datos - BDController.Contructor_Vacio");
 		}
 	}
 
